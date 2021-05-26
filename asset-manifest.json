@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/juanivideo/static/css/main.9c4d981b.chunk.css",
+    "main.js": "/juanivideo/static/js/main.ac692b0c.chunk.js",
+    "main.js.map": "/juanivideo/static/js/main.ac692b0c.chunk.js.map",
+    "runtime-main.js": "/juanivideo/static/js/runtime-main.56b4a8f1.js",
+    "runtime-main.js.map": "/juanivideo/static/js/runtime-main.56b4a8f1.js.map",
+    "static/css/2.71a75787.chunk.css": "/juanivideo/static/css/2.71a75787.chunk.css",
+    "static/js/2.f7ca0f36.chunk.js": "/juanivideo/static/js/2.f7ca0f36.chunk.js",
+    "static/js/2.f7ca0f36.chunk.js.map": "/juanivideo/static/js/2.f7ca0f36.chunk.js.map",
+    "static/js/3.e86e28a8.chunk.js": "/juanivideo/static/js/3.e86e28a8.chunk.js",
+    "static/js/3.e86e28a8.chunk.js.map": "/juanivideo/static/js/3.e86e28a8.chunk.js.map",
+    "index.html": "/juanivideo/index.html",
+    "static/css/2.71a75787.chunk.css.map": "/juanivideo/static/css/2.71a75787.chunk.css.map",
+    "static/css/main.9c4d981b.chunk.css.map": "/juanivideo/static/css/main.9c4d981b.chunk.css.map",
+    "static/js/2.f7ca0f36.chunk.js.LICENSE.txt": "/juanivideo/static/js/2.f7ca0f36.chunk.js.LICENSE.txt",
+    "static/media/contratiempo-logo.98994ae9.png": "/juanivideo/static/media/contratiempo-logo.98994ae9.png",
+    "static/media/contratiempo.dcd82109.jpg": "/juanivideo/static/media/contratiempo.dcd82109.jpg",
+    "static/media/juaniflix.ad91ddb9.png": "/juanivideo/static/media/juaniflix.ad91ddb9.png",
+    "static/media/queens-gambit-logo.581762ca.png": "/juanivideo/static/media/queens-gambit-logo.581762ca.png",
+    "static/media/queens-gambit.f37b3b63.jpg": "/juanivideo/static/media/queens-gambit.f37b3b63.jpg",
+    "static/media/stranger-things-logo.6c2a58e6.png": "/juanivideo/static/media/stranger-things-logo.6c2a58e6.png",
+    "static/media/stranger-things.4886b7d0.jpg": "/juanivideo/static/media/stranger-things.4886b7d0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56b4a8f1.js",
+    "static/css/2.71a75787.chunk.css",
+    "static/js/2.f7ca0f36.chunk.js",
+    "static/css/main.9c4d981b.chunk.css",
+    "static/js/main.ac692b0c.chunk.js"
+  ]
+}
