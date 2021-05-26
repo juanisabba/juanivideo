@@ -1,0 +1,253 @@
+.navbar{
+    width: 100%;
+    background: linear-gradient(to bottom, #000, transparent);
+    padding: 15px 30px;
+    position: fixed;
+    display: flex;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar > div:first-child{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.colorMenu{
+    background: linear-gradient(to bottom, #000, #161616);
+}
+
+.navbar-logo{
+    width: 17%;
+    margin-right: 30px;
+}
+
+.responsive-navbar{
+    display: none;
+}
+
+.navbar-list{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-list li{
+    margin: 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-list li:hover{
+    color: rgb(168, 163, 163);
+}
+
+.navbar > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40%;
+    padding-right: 2vw;
+}
+
+.navbar .search-box{
+    width: 230px;
+    height: 30px;
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.navbar .navbar-icon{
+    width: 30px;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.navbar .navbar-kids{
+    color: #fff;
+    font-size: 15px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1125px) {
+    .navbar-list li{
+        font-size: 12px;
+        margin: 0 8px;
+    }
+
+    .navbar .search-box{
+        width: 195px;
+        height: 26px;
+        padding: 8px;
+        font-size: 12px;
+        margin-right: 8px;
+    }    
+
+    .navbar .search-icon{
+        font-size: 18px;
+    }
+    
+    .navbar .navbar-icon{
+        width: 26px;
+        margin: 0 9px;
+        font-size: 20px;
+    }
+    
+    .navbar .navbar-kids{
+        font-size: 15px;
+    }    
+}
+
+@media screen and (max-width:875px){
+    .navbar{
+        padding: 0px 30px;
+        height: 50px;
+    }
+    
+    .navbar > div:first-child{
+        width: 50%;
+    }
+    
+    .navbar > div:nth-child(2){
+        width: 50%;
+    }
+
+    .navbar-logo{
+        width: 20%;
+        margin-right: 20px;
+    }        
+    
+    .navbar-list{
+        display: none;
+    }
+
+    .responsive-navbar{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        padding: 20px 0;
+    }
+
+    .responsive-list{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        list-style: none;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 270px;
+        margin-left: -100px;
+        margin-top: 35px;
+        border-top: 2px solid #fff;
+    }
+
+    .responsive-list li{
+        padding: 15px 0;
+        cursor: pointer;
+    }
+
+    .responsive-list li:hover{
+        background-color: rgba(219, 32, 44, .7);
+    }
+
+    .responsive-navbar:hover .responsive-list{
+        display: flex;
+    }
+
+    .browse{
+        font-size: 13px;
+        cursor: default;
+    }
+
+    .sort-down-icon{
+        margin: 0 5px;
+    }
+
+    .navbar .navbar-icon{
+        width: 20px;
+        margin: 0 9px;
+        font-size: 16px;
+    }
+    
+    .navbar .navbar-kids{
+        font-size: 13px;
+    }    
+}
+
+@media screen and (max-width: 650px) {
+    .browse{
+        font-size: 11px;
+    }
+
+    .navbar-logo{
+        width: 23%;
+    }
+
+    .navbar .navbar-icon{
+        width: 17px;
+        margin: 0 7px;
+        font-size: 13px;
+    }
+    
+    .navbar .navbar-kids{
+        font-size: 11px;
+        margin: 0 5px;
+    } 
+    
+    .navbar > div:nth-child(2){
+        padding-right: 0;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .responsive-list{
+        width: 200px;
+        margin-left: -80px;
+        margin-top: 30px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .browse{
+        font-size: 9px;
+    }
+
+    .navbar-logo{
+        width: 23%;
+        margin-right: 15px;
+    }  
+    
+    .responsive-list{
+        width: 170px;
+        margin-top: 25px;
+        margin-left: -65px;
+        font-size: 12px;
+    }
+    
+    .navbar .navbar-icon{
+        width: 15px;
+        margin: 0 6px;
+        font-size: 11px;
+    }
+    
+    .navbar .navbar-kids{
+        font-size: 9px;
+        margin: 0 4px;
+    } 
+
+}

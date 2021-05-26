@@ -1,0 +1,134 @@
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    width: 830px;
+    max-height: 90vh;
+}
+
+.button-img{
+    border: none;
+    background-color: transparent;
+    height: 0;
+}
+
+.content-modal{
+    display: flex;
+    user-select: none; 
+}
+
+.content-modal img{
+    user-select: none;
+}
+
+.content-modal_about{
+    padding: 0 20px 0 40px;
+    text-align: center;
+    user-select: none;
+}
+
+.content-modal_landscape{
+    height: 450px;
+}
+
+.content-modal_title{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-shadow: 0 0 15px #000;
+    user-select: none;
+}
+
+.tagline{
+    font-style: oblique;
+    color: rgb(197, 191, 191);
+    user-select: none;
+}
+
+.content-modal_description{
+    display: flex;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    min-height: 200px;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    overflow-y: scroll;
+    scrollbar-width: 1px;
+    scrollbar-width: thin; /* Firefox */;
+    margin-top: 20px;
+    user-select: none;
+}
+
+.content-modal_description::-webkit-scrollbar {
+    display: none;
+  }  
+
+.content-modal_buttons{
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    user-select: none;
+}
+
+.content-modal_buttons button{
+    border: none;
+    padding: 15px 0;
+    width: 150px;
+    font-size: 15px;
+    transition: all .4s;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.button-netflix:hover, .button-youtube:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #000;
+    cursor: pointer;
+}
+
+.content-modal_buttons .button-netflix{
+    background-color: red;
+    color: #fff;
+}
+
+.modal-icon{
+    margin-right: 5px;
+}
+
+.disabled-button{
+    cursor: not-allowed;
+    background-color: rgba(100, 100, 100);
+}
+
+@media screen and (max-width:950px) {
+    .modal{
+        max-width: 90vw;
+    }
+}
+
+@media screen and (max-width:850px){
+    .content-modal img{
+        display: none;
+    }
+
+    .modal{
+        max-width: 80vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .content-modal_buttons button{
+        padding: 15px 0;
+        margin: 0 10px;
+        width: 120px;
+        font-size: 13px;
+        transition: all .4s;
+        font-weight: bold;
+        border-radius: 3px;
+    }
+    
+}
